@@ -2,13 +2,12 @@
 BeautifulTime
 ########################################
 
-.. |travis_ci| image:: https://travis-ci.org/restran/beautiful-time.svg?branch=master
-    :target: https://travis-ci.org/restran/beautiful-time
-    :alt: travis-ci
+.. image:: https://travis-ci.org/restran/beautiful-time.svg?branch=master
+:target: https://travis-ci.org/restran/beautiful-time
 
-.. |coverage_status| image:: https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master
-    :target: https://coveralls.io/github/restran/beautiful-time?branch=master
-    :alt: Coverage Status
+.. image:: https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master
+:target: https://coveralls.io/github/restran/beautiful-time?branch=master
+
 
 BeautifulTime is a python package for converting date string, datetime, time and timestamp.
 
