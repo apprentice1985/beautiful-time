@@ -2,11 +2,11 @@
 BeautifulTime
 ########################################
 
-.. |travis-ci| image:: https://travis-ci.org/restran/beautiful-time.svg?branch=master
+.. |travis_ci| image:: https://travis-ci.org/restran/beautiful-time.svg?branch=master
     :target: https://travis-ci.org/restran/beautiful-time
     :alt: travis-ci
 
-.. |Coverage Status| image:: https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master
+.. |coverage_status| image:: https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master
     :target: https://coveralls.io/github/restran/beautiful-time?branch=master
     :alt: Coverage Status
 
