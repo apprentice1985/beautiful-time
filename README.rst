@@ -1,41 +1,53 @@
-# BeautifulTime
+########################################
+BeautifulTime
+########################################
 
-[![travis-ci](https://travis-ci.org/restran/beautiful-time.svg?branch=master)](https://travis-ci.org/restran/beautiful-time)
-[![Coverage Status](https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master)](https://coveralls.io/github/restran/beautiful-time?branch=master)
+.. |travis-ci| image:: https://travis-ci.org/restran/beautiful-time.svg?branch=master
+    :target: https://travis-ci.org/restran/beautiful-time
+    :alt: travis-ci
+
+.. |Coverage Status| image:: https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master
+    :target: https://coveralls.io/github/restran/beautiful-time?branch=master
+    :alt: Coverage Status
 
 BeautifulTime is a python package for converting date string, datetime, time and timestamp.
 
-## Install
+===================
+Install
+===================
 
-```
-pip install BeautifulTime
-```
+.. code-block:: bash
 
-## Usage
+    pip install BeautifulTime
 
-```py
-import BeautifulTime
+===================
+Usage
+===================
 
-date_str = '2016-10-30 12:30:30'
-dt = BeautifulTime.str2datetime(date_str)
-# with a custom format
-dt = BeautifulTime.str2datetime(date_str, format='%Y-%m-%d %H:%M:%S')
-t = BeautifulTime.str2time(date_str)
-ts = BeautifulTime.str2timestamp(date_str)
+.. code-block:: python
 
-dt = BeautifulTime.str2datetime(date_str)
-t = BeautifulTime.str2time(date_str)
-ts = BeautifulTime.str2timestamp(date_str)
+    import BeautifulTime
 
-s = BeautifulTime.datetime2str(dt)
-t = BeautifulTime.datetime2time(dt)
-ts = BeautifulTime.datetime2timestamp(dt)
+    date_str = '2016-10-30 12:30:30'
+    dt = BeautifulTime.str2datetime(date_str)
+    # with a custom format
+    dt = BeautifulTime.str2datetime(date_str, format='%Y-%m-%d %H:%M:%S')
+    t = BeautifulTime.str2time(date_str)
+    ts = BeautifulTime.str2timestamp(date_str)
 
-s = BeautifulTime.time2str(t)
-dt = BeautifulTime.time2datetime(t)
-ts = BeautifulTime.time2timestamp(t)
+    dt = BeautifulTime.str2datetime(date_str)
+    t = BeautifulTime.str2time(date_str)
+    ts = BeautifulTime.str2timestamp(date_str)
 
-dt = BeautifulTime.timestamp2datetime(ts)
-t = BeautifulTime.timestamp2time(ts)
-s = BeautifulTime.timestamp2str(ts)
-```
+    s = BeautifulTime.datetime2str(dt)
+    t = BeautifulTime.datetime2time(dt)
+    ts = BeautifulTime.datetime2timestamp(dt)
+
+    s = BeautifulTime.time2str(t)
+    dt = BeautifulTime.time2datetime(t)
+    ts = BeautifulTime.time2timestamp(t)
+
+    dt = BeautifulTime.timestamp2datetime(ts)
+    t = BeautifulTime.timestamp2time(ts)
+    s = BeautifulTime.timestamp2str(ts)
+
