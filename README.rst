@@ -3,7 +3,7 @@
 [![travis-ci](https://travis-ci.org/restran/beautiful-time.svg?branch=master)](https://travis-ci.org/restran/beautiful-time)
 [![Coverage Status](https://coveralls.io/repos/github/restran/beautiful-time/badge.svg?branch=master)](https://coveralls.io/github/restran/beautiful-time?branch=master)
 
-BeautifulTime is a python package for convert date string, datetime, time and timestamp.
+BeautifulTime is a python package for converting date string, datetime, time and timestamp.
 
 ## Install
 
