@@ -17,7 +17,7 @@ Install
 
 .. code-block:: bash
 
-    pip install BeautifulTime
+    pip install beautiful_time
 
 ===================
 Usage
